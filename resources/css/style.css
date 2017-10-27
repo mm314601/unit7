@@ -138,8 +138,27 @@ main {
 		display:flex;
 }
 
-.stack #triple_o{
-	display:block;
+.triple_line{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+}
+
+.triple_stack{
+	display: flex;
+	flex-direction: column;
+	width:65%;
+}
+
+
+#triple_o{
+	display: flex;
+	flex-direction: column;
+	width:40%;
+}
+
+#triple_o img{
+	height: auto;
 	width:35%;
 }
 
@@ -149,6 +168,8 @@ video {
 }
 
 .wide{
+	display: flex;
+	flex-direction: column;
 	width:60%;
 }
 
