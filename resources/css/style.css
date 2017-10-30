@@ -80,6 +80,10 @@ h5 {
 	flex-direction: row;
 }
 
+.keep_practing img{
+	width:100%;
+}
+
 #lecture {
 	background-color: #DDDDDD;
 }
@@ -107,7 +111,17 @@ main {
 	width: 1280px;
 }
 
-.narrow{
+.course_line{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:100%;
+}
+
+.course_stack{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
 	width:25%;
 }
 
@@ -125,6 +139,15 @@ main {
 	background-color: #EEEEEE;
 	display: flex;
 	flex-direction: row;
+}
+
+.start_learning.line{
+	display:flex;
+	justify-content:space-between;
+}
+
+.start_learning.stack{
+	overflow: hidden;
 }
 
 .thesis_exhibit {
@@ -151,12 +174,14 @@ main {
 	display: flex;
 	flex-direction: column;
 	width:65%;
+	margin-left:40px;
 }
 
 
 #triple_o{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	width:40%;
 }
 
@@ -174,6 +199,10 @@ video {
 	display: flex;
 	flex-direction: column;
 	width:60%;
+}
+
+.wide img{
+	width:100%;
 }
 
 /* It's over */
