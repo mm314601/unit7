@@ -11,10 +11,20 @@ html {
 	justify-content: center;
 }
 
+.course_line{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:100%;
+}
 
+.course_stack{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width:25%;
+}
 
-/* I have tried to organize everything alphabetically. I did so by hand,*/
-/* so there may be some mistakes. Please forgive me.*/
 #fisma{
 	background-color:#DDDDDD;
 }
@@ -84,6 +94,18 @@ h5 {
 	width:100%;
 }
 
+.keep_practicing_image{
+	display: flex;
+	flex-direction: column;
+	padding-left:15px;
+	padding-right:15px;
+	width:60%;
+}
+
+.keep_practicing_image img{
+	width:100%;
+}
+
 #lecture {
 	background-color: #DDDDDD;
 }
@@ -109,20 +131,6 @@ main {
 	flex-direction: column;
 	margin: auto;
 	width: 1280px;
-}
-
-.course_line{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width:100%;
-}
-
-.course_stack{
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-	width:25%;
 }
 
 .stack {
