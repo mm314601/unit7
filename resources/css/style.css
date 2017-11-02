@@ -11,20 +11,6 @@ html {
 	justify-content: center;
 }
 
-.course_line{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width:100%;
-}
-
-.course_stack{
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-	width:25%;
-}
-
 #fisma{
 	background-color:#DDDDDD;
 }
@@ -62,7 +48,6 @@ h5 {
 	justify-content: left;
 	padding-bottom: 0.66rem;
 	padding-top: 0.66rem;
-	width: 100%;
 }
 
 .header img {
@@ -85,21 +70,11 @@ h5 {
 	padding: 0px 20px;
 }
 
-.keep_practicing {
-	display: flex;
-	flex-direction: row;
-}
-
-.keep_practing img{
-	width:100%;
-}
-
 .keep_practicing_image{
 	display: flex;
 	flex-direction: column;
-	padding-left:15px;
-	padding-right:15px;
-	width:60%;
+	padding-top:10px;
+	width:100%;
 }
 
 .keep_practicing_image img{
@@ -168,34 +143,8 @@ main {
 		display:flex;
 }
 
-.triple_img{
-  width:35%;
-}
-
-.triple_line{
-	display: flex;
-	flex-direction: row;
-	width:100%;
-}
-
-.triple_stack{
-	display: flex;
-	flex-direction: column;
-	width:65%;
-	margin-left:40px;
-}
-
-
-#triple_o{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width:40%;
-}
-
-#triple_o img{
-	/*height: auto;*/
-	width:100%;
+.triple_img img{
+  width:100%;
 }
 
 video {
@@ -206,7 +155,7 @@ video {
 .wide{
 	display: flex;
 	flex-direction: column;
-	width:60%;
+	width:100%;
 }
 
 .wide img{
