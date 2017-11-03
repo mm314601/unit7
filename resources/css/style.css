@@ -7,8 +7,28 @@
 html {
 	background-color: white;
 	display: flex;
-	font-size: 18px;
+	font-size: 16px;
 	justify-content: center;
+}
+
+.course_line{
+	align-items:flex-start;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 72px 0 72px;
+}
+
+.course_stack{
+	background-color:white;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width:25%;
+}
+
+.course_stack img{
+	width:100%;
 }
 
 #fisma{
@@ -48,6 +68,7 @@ h5 {
 	justify-content: left;
 	padding-bottom: 0.66rem;
 	padding-top: 0.66rem;
+	width: 100%;
 }
 
 .header img {
@@ -70,11 +91,21 @@ h5 {
 	padding: 0px 20px;
 }
 
+.keep_practicing {
+	display: flex;
+	flex-direction: row;
+}
+
+.keep_practing img{
+	width:100%;
+}
+
 .keep_practicing_image{
 	display: flex;
 	flex-direction: column;
-	padding-top:10px;
-	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+	width:60%;
 }
 
 .keep_practicing_image img{
@@ -89,6 +120,40 @@ h5 {
 	background-color: #DDDDDD;
 	display: flex;
 	flex-direction: row;
+}
+
+.learn_something h1,
+.learn_something h2,
+.learn_something h3{
+	color:#333333;
+	font-weight:bold;
+
+}
+
+.learn_something h1{
+	font-size:3rem;
+}
+.learn_something h2{
+	font-size:2rem;
+	padding-bottom:2rem;
+}
+.learn_something h3{
+	background-color:#555555;
+	color:white;
+	font-size:2rem;
+	text-align:center;
+	padding:8px 0 8px 0;
+}
+
+#learn_something_headers{
+	margin-right:96px;
+}
+
+.learn_something_stack {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	width:40%;
 }
 
 .line {
@@ -138,13 +203,48 @@ main {
 	flex-direction: row;
 }
 
+.thesis_video{
+	display: flex;
+	flex-direction: column;
+	width:60%;
+	padding:32px 24px 32px 24px;
+}
+
+
 .title{
 		align-items:center;
 		display:flex;
 }
 
-.triple_img img{
-  width:100%;
+.triple_img{
+  width:35%;
+}
+
+.triple_line{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+}
+
+.triple_stack{
+	display: flex;
+	flex-direction: column;
+	width:65%;
+	margin-left:40px;
+}
+
+
+#triple_o{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding:32px 0 32px 0;
+	width:40%;
+}
+
+#triple_o img{
+	/*height: auto;*/
+	width:100%;
 }
 
 video {
@@ -153,7 +253,10 @@ video {
 }
 
 .wide{
-	width:100%;
+	display: flex;
+	flex-direction: column;
+	width:60%;
+	padding:32px 24px 32px 24px;
 }
 
 .wide img{
