@@ -153,10 +153,7 @@ video {
 }
 
 .wide{
-	display: flex;
-	flex-direction: column;
 	width:100%;
-	height:auto;
 }
 
 .wide img{
